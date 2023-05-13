@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <h1>Issue board</h1>
+    <form [formGroup]="form" (ngSubmit)="sin()">
+        
+        
+        <input type="text" placeholder="TITLE"formControlName="tittle">
+        <br><br>
+        
+        <textarea name="" id="" cols="30" rows="10" placeholder="DESCRIPITION" formControlName="description"></textarea>
+       <br><br>
+        <button  class="btn btn-primary" type="submit">submit</button>
+    </form>
+</div>

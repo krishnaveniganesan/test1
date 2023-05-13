@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "tittle": "LEO",
+      "description": "Vijay Movie ",
+      "id": 5
+    },
+    {
+      "tittle": "Bigil",
+      "description": "Vijay na  movie",
+      "id": 6
+    },
+    {
+      "tittle": "riyaz",
+      "description": "dfhj",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,21 @@
+
+<button routerLink="login" class="btn btn-primary" [routerLink]="['/login' ]" type="button">Create</button>
+<table>
+   
+    <tr>
+        <th>Tittle</th>
+        <th>Description</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        
+    </tr>
+    <tr *ngFor="let data of datas">
+    <td>{{data.tittle}}</td>
+    <td>{{data.description}}</td>
+    
+    <td><button class="btn btn-primary" routerLink="edit"[routerLink]="['/edit', data.id]" type="button">Edit</button></td>
+    <td><button class="btn btn-danger" (click)='Delete(data.id)' type="button">Delete</button></td>
+   
+    </tr>
+</table>
+<br>
